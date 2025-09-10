@@ -8,7 +8,7 @@ import time
 # ---------------------------
 tracks = [1, 2, 3]  # Track numbers
 track_length = 30   # simulation distance
-train_length = 3    # number of coaches (excluding engine)
+train_length = 4    # number of coaches (excluding engine)
 
 # Example train setup
 trains = [
