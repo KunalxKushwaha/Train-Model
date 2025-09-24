@@ -12,7 +12,7 @@ train_length = 4        # number of coaches (excluding engine)
 station_start = 15      # station position (x start)
 station_length = 8      # station width
 
-# Example train setup
+#Train setup
 trains = [
     {"id": "T1", "position": 0, "track": 1, "priority": "High", "hold": False, "color": "royalblue"},
     {"id": "T2", "position": 6, "track": 2, "priority": "Medium", "hold": False, "color": "seagreen"},
@@ -20,7 +20,7 @@ trains = [
 ]
 
 # ---------------------------
-# Helper: draw trains + station
+# Helper: Draws trains + station
 # ---------------------------
 def plot_trains(trains, t):
     fig, ax = plt.subplots(figsize=(14, 6))
@@ -86,7 +86,7 @@ def plot_trains(trains, t):
 # Streamlit App
 # ---------------------------
 def main():
-    st.title("🚆 Train Simulation with Realistic Stations")
+    st.title("🚂 Train Simulation with Realistic Stations")
     st.write("Each track now has its own station platform where trains slow down while passing.")
 
     for train in trains:
